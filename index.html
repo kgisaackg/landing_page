@@ -12,8 +12,8 @@
     <!--Hero Section-->
 
     <section id="hero">
-      <div class="min-h-screen flex">
-        <div class="basis-7/12 bg-cust_primary text-white px-20 py-4">
+      <div class="md:flex">
+        <div class="basis-7/12 bg-cust_primary text-white px-10 md:px-20 py-20">
           <p class="text-4xl font-bold">Full Stack Developer.</p>
 
           <p class="my-12">
@@ -27,44 +27,48 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
               placeat reprehenderit nihil.
             </p>
-            <p>
+            <p >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
               numquam illum blanditiis nostrum. Maxime iste unde quos!
             </p>
           </div>
         </div>
-        <div class="basis-5/12 bg-gray-400"></div>
+        <div class="basis-5/12 bg-cust_secondary md:relative flex items-center">
+          <div class="md:absolute m-auto -left-10 py-20 md:py-0 ">
+           <img class="mx-auto block" src="./img/isaac.svg" alt="" srcset="">
+          </div>
+        </div>
       </div>
     </section>
 
     <!--Service Section-->
 
     <section id="service">
-      <div class="min-h-screen flex mx-20 gap-4 items-center">
+      <div class="md:min-h-screen md:flex px-10 md:px-20 gap-10 items-center">
         <div class="basis-6/12">
-          <p class="text-4xl text-cust_primary mb-3 font-bold">
+          <p class="text-4xl my-12 text-cust_primary font-bold">
             I do freelancing.
           </p>
-          <p class="my-8">
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
             nesciunt quos placeat id incidunt provident, eaque ab architecto
             odit nobis soluta.
           </p>
 
-          <div class="img mt-6 motion-reduce:animate-bounce">
-            <img src="./img/dots_with_line.svg" alt="" srcset="" />
+          <div class="img md:mt-8">
+            <img src="./img/dots_with_line.svg" alt="" class=" hidden md:block" srcset="" />
           </div>
         </div>
 
-        <div class="basis-6/12">
-          <div class="img mb-6 motion-reduce:animate-bounce">
+        <div class="basis-6/12 mb-12 md:mb-0">
+          <div class="img hidden md:block">
             <img src="./img/dots.svg" alt="notfound" />
           </div>
 
-          <p class="text-4xl text-cust_primary mb-3 font-bold">
+          <p class="text-4xl text-cust_primary my-12 font-bold">
             I help small businesses.
           </p>
-          <p class="my-8">
+          <p >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse iste
             ab molestias aliquid quis, ad natus.
           </p>
@@ -74,10 +78,10 @@
 
     <!--About Section-->
     <section id="about ">
-      <div class="min-h-screen flex items-center px-20 bg-cust_primary">
-        <div class="flex items-center gap-4 text-white">
-          <div class="basis-6/12" data-aos="fade-right">
-            <h1 class="text-3xl">About My Experiance</h1>
+      <div class="md:min-h-screen flex items-center px-10 md:px-20 bg-cust_primary">
+        <div class="md:flex items-center gap-4 text-white">
+          <div class="basis-6/12 my-12 md:my-0" data-aos="fade-right">
+            <h1 class="text-3xl">About My Experiance.</h1>
             <p class="mt-6">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
               labore modi, eius ad nobis necessitatibus sunt maiores ratione!
@@ -91,7 +95,7 @@
               rerum temporibus reprehenderit.
             </p>
           </div>
-          <div class="basis-6/12" data-aos="fade-left">
+          <div class="basis-6/12 my-12 md:my-0" data-aos="fade-left">
             <img src="img/laptop_smile.svg" alt="" />
           </div>
         </div>
