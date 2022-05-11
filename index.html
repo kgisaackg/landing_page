@@ -1,58 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
     <title>Full Stack Developer</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Hero Section-->
 
     <section id="hero">
-        <div class="flex mx-20">
-            <div class="basis-7/12 bg-gray-300">
-                Section A
-            </div>
-            <div class="basis-5/12 bg-gray-400">
-                Section B
-            </div>
-        </div>
-    </section>
+      <div class="min-h-screen flex">
+        <div class="basis-7/12 bg-cust_primary text-white px-20 py-4">
+          <p class="text-4xl font-bold">Full Stack Developer.</p>
 
+          <p class="my-12">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
+            necessitatibus non qui quae optio quasi! Ex laboriosam provident
+            veniam quis commodi.
+          </p>
+
+          <div class="flex gap-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              placeat reprehenderit nihil.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              numquam illum blanditiis nostrum. Maxime iste unde quos!
+            </p>
+          </div>
+        </div>
+        <div class="basis-5/12 bg-gray-400"></div>
+      </div>
+    </section>
 
     <!--Service Section-->
 
     <section id="service">
-        
+      <div class="min-h-screen flex mx-20 gap-4 items-center">
+        <div class="basis-6/12">
+          <p class="text-4xl text-cust_primary mb-3 font-bold">
+            I do freelancing.
+          </p>
+          <p class="my-8">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
+            nesciunt quos placeat id incidunt provident, eaque ab architecto
+            odit nobis soluta.
+          </p>
+
+          <div class="img mt-6">
+            <img src="./img/dots_with_line.svg" alt="" srcset="" />
+          </div>
+        </div>
+
+        <div class="basis-6/12">
+          <div class="img mb-6">
+            <img src="./img/dots.svg" alt="notfound" />
+          </div>
+
+          <p class="text-4xl text-cust_primary mb-3 font-bold">
+            I help small businesses.
+          </p>
+          <p class="my-8">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse iste
+            ab molestias aliquid quis, ad natus.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!--About Section-->
     <section id="about ">
-        <div class="min-h-screen flex items-center mx-20">    
-            <div class="flex items-center gap-4">
-                <div class="basis-6/12">
-                    <h1 class="text-5xl">
-                        About My Experiance
-                    </h1>
-                    <p class="mt-6">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa labore modi, eius ad nobis necessitatibus sunt maiores ratione! Quae, dolor nisi.
-                    </p>
+      <div class="min-h-screen flex items-center px-20 bg-cust_primary">
+        <div class="flex items-center gap-4 text-white">
+          <div class="basis-6/12" data-aos="fade-right">
+            <h1 class="text-3xl">About My Experiance</h1>
+            <p class="mt-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+              labore modi, eius ad nobis necessitatibus sunt maiores ratione!
+              Quae, dolor nisi.
+            </p>
 
-                    <p class="mt-6">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero illum totam enim eveniet velit. Reiciendis ipsam ad labore itaque eos sunt consectetur accusamus nam ab, totam iusto at, officia rerum temporibus reprehenderit.
-                    </p>
-                </div>
-                <div class="basis-6/12">
-                    <img src="img/laptop_smile.svg" alt="" />
-                </div>
-            </div>
+            <p class="mt-6">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+              illum totam enim eveniet velit. Reiciendis ipsam ad labore itaque
+              eos sunt consectetur accusamus nam ab, totam iusto at, officia
+              rerum temporibus reprehenderit.
+            </p>
+          </div>
+          <div class="basis-6/12" data-aos="fade-left">
+            <img src="img/laptop_smile.svg" alt="" />
+          </div>
         </div>
+      </div>
     </section>
 
     <!--Potfolio Section-->
 
     <!--Contact Section-->
-</body>
+    <script>
+      AOS.init({
+        delay: 200,
+        duration: 1200,
+        once: false,
+      });
+    </script>
+  </body>
 </html>
