@@ -42,7 +42,6 @@
     </section>
 
     <!--Service Section-->
-
     <section id="service">
       <div class="md:min-h-screen md:flex px-10 md:px-20 gap-10 items-center">
         <div class="basis-6/12">
@@ -103,12 +102,57 @@
     </section>
 
     <!--Potfolio Section-->
-
     <section id="portfolio">
-
+      <h1 class="text-center text-2xl mt-4">
+        Some Of My Work
+      </h1> 
     </section>
 
     <!--Contact Section-->
+    <div id="contact" class="bg-cust_gray md:min-h-screen flex flex-col justify-between">
+      <div class="px-10 md:px-20 my-auto">
+
+        <div class="text-center max-w-lg mx-auto mt-8">
+          <h1 class="text-2xl">Feel free to message me!</h1>
+          <p class="mb-4 mt-10">
+            Have a question, proposal, want to hire me, get a quote or just to chat? I'm here for you.
+          </p>
+        </div>
+  
+        <form action="" class="max-w-2xl mx-auto py-10">
+          <div class="flex gap-20 justify-between">
+            <div class=" z-0 w-full mb-6">
+              <label>Your Name</label>
+              <input type="text" name="sender" 
+              class="block py-1 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cust_primary" placeholder="Enter your name" required />
+            </div>
+  
+            <div class="relative z-0 w-full mb-6 group">
+              <label>Your Email Address</label>
+              <input type="email" name="email" 
+              class="block py-1 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cust_primary" placeholder="Enter your email address" required />
+            </div>
+          </div>
+  
+          <div class="relative z-0 w-full mb-20 mt-10">
+            <label>Your Message</label>
+            <input type="textarea" name="message" 
+            class="block py-1 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cust_primary" 
+            placeholder="Hi, I’m am looking for a website for my bussiness. I would like to have a chat with you" required />
+          </div>
+          
+          <p class="border-2 border-cust_primary max-w-min mx-auto text-center mt-10 py-1 px-10">
+            SEND
+          </p>
+        </form>
+      </div>
+
+      <div class="bg-black text-center text-white py-4">
+        &copy;copyrights IsaacTechPro
+      </div>
+    </div>
+
+
     <script>
       AOS.init({
         delay: 200,
