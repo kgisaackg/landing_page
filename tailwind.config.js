@@ -7,7 +7,7 @@ module.exports = {
         cust_secondary: '#4BD16F',
         cust_gray: "#F3F3F3",
         white: '#ffffff'
-      }
+      },
     },
   },
   plugins: [],

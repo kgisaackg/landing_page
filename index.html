@@ -1,41 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="img/fav.svg" type="image/x-icon" />
+     
+     
     <title>Isaac Malebana: Full Stack Developer</title>
   </head>
   <body>
     <!--Hero Section-->
 
+    <header
+      class="flex justify-between fixed w-full px-10 md:px-20 py-20 z-50 items-center py-4 bg-cust_gray drop-shadow-md"
+    >
+      <p class="text-2xl font-bold">IsaacTechPro</p>
+      <div class="font-bold">
+        <span> <a href="#hero" class="link">Home</a></span>
+        <span class="mx-10"> <a class="link" href="#service">What I Do</a></span>
+        <span><a class="link" href="#about">About</a></span>
+        <span><a class="mx-10 link" href="#portfolio">Portfolio</a> </span>
+        <span><a class="link" href="#contact">Contact </a></span>
+      </div>
+    </header>
+    <!-- <div>
+      <img src="/img//hamburger.svg" alt="" />
+    </div> -->
     <section id="hero">
-      <div class="md:flex">
-        <div class="basis-7/12 bg-cust_primary text-white px-10 md:px-20 py-20">
-          <p class="text-4xl font-bold">Full Stack Developer.</p>
+      <div class="md:flex min-h-screen">
+        <div
+          class="basis-7/12 bg-cust_primary text-white px-4 md:px-20 py-20 flex"
+        >
+          <div class="my-auto items-center">
+            <div class="text-6xl font-bold">
+              <p>Hey I'm Isaac.</p>
+              <p>A Full Stack Developer.</p>
+            </div>
 
-          <p class="my-12">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-            necessitatibus non qui quae optio quasi! Ex laboriosam provident
-            veniam quis commodi.
-          </p>
+            <p class="my-12 text-xl">
+              I'm a full stack developer you can count on when it comes to creating websites, web applications, landing pages, and software.
+            </p>
 
-          <div class="flex gap-4">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-              placeat reprehenderit nihil.
-            </p>
-            <p >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-              numquam illum blanditiis nostrum. Maxime iste unde quos!
-            </p>
+          
+            <div class="flex gap-4">
+              <p class="basis-6/12">
+               Trusted to get the job done as I often deliver beyond expectations.
+              </p>
+              <p class="basis-6/12">
+                Extremely excellent in collaborating with people.
+              </p>
+            </div>
+          
           </div>
         </div>
         <div class="basis-5/12 bg-cust_secondary md:relative flex items-center">
-          <div class="md:absolute m-auto -left-10 py-20 md:py-0 ">
-           <img class="mx-auto block" src="./img/isaac.svg" alt="" srcset="">
+          <div class="md:absolute m-auto -left-10 py-20 md:py-0">
+            <img class="mx-auto block" src="./img/isaac.svg" alt="" srcset="" />
           </div>
         </div>
       </div>
@@ -43,55 +66,58 @@
 
     <!--Service Section-->
     <section id="service">
-      <div class="md:min-h-screen md:flex px-10 md:px-20 gap-10 items-center">
-        <div class="basis-6/12">
-          <p class="text-4xl my-12 text-cust_primary font-bold">
+      <div class="md:min-h-screen md:flex px-4 md:px-20 gap-10 items-center" data-aos="fade-right">
+        <div class="basis-6/12 text-xl">
+          <p class="text-5xl my-12 text-cust_primary font-bold">
             I do freelancing.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
-            nesciunt quos placeat id incidunt provident, eaque ab architecto
-            odit nobis soluta.
+            I build products that you require, I have expriance of creating websites, 
+            web applications, landing pages, and software. If you have someting in mind
+            feel free to contact.
           </p>
 
           <div class="img md:mt-8">
-            <img src="./img/dots_with_line.svg" alt="" class=" hidden md:block" srcset="" />
+            <img
+              src="./img/dots_with_line.svg"
+              alt=""
+              class="hidden md:block"
+              srcset=""
+            />
           </div>
         </div>
 
-        <div class="basis-6/12 mb-12 md:mb-0">
+        <div class="basis-6/12 mb-12 md:mb-0 text-xl" data-aos="fade-left">
           <div class="img hidden md:block">
             <img src="./img/dots.svg" alt="notfound" />
           </div>
 
-          <p class="text-4xl text-cust_primary my-12 font-bold">
+          <p class="text-5xl text-cust_primary my-12 font-bold">
             I help small businesses.
           </p>
-          <p >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse iste
-            ab molestias aliquid quis, ad natus.
+          <p>
+           I create professional and brand specif websites, with the aim of turning website visitors into customers. <br>
+           I design websites that don't only work, but are fast, meet your business needs, and are engaging to your potential customers.
           </p>
         </div>
       </div>
     </section>
 
     <!--About Section-->
-    <section id="about ">
-      <div class="md:min-h-screen flex items-center px-10 md:px-20 bg-cust_primary">
+    <section id="about">
+      <div
+        class="md:min-h-screen flex items-center px-4 md:px-20 bg-cust_primary"
+      >
         <div class="md:flex items-center gap-4 text-white">
-          <div class="basis-6/12 my-12 md:my-0" data-aos="fade-right">
-            <h1 class="text-3xl">About My Experiance.</h1>
+          <div class="basis-6/12 my-12 md:my-0 text-xl" data-aos="fade-right">
+            <h1 class="text-5xl font-bold">About My Experiance.</h1>
             <p class="mt-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-              labore modi, eius ad nobis necessitatibus sunt maiores ratione!
-              Quae, dolor nisi.
+             I have built applications for companies, for about 2 years. 
             </p>
 
             <p class="mt-6">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
-              illum totam enim eveniet velit. Reiciendis ipsam ad labore itaque
-              eos sunt consectetur accusamus nam ab, totam iusto at, officia
-              rerum temporibus reprehenderit.
+             Currently I' working on the digital academy as a full stack developer, working on 
+             multiple projects using defferent stack.
             </p>
           </div>
           <div class="basis-6/12 my-12 md:my-0" data-aos="fade-left">
@@ -102,92 +128,112 @@
     </section>
 
     <!--Potfolio Section-->
-    <section id="portfolio" class="px-10 md:px-20 py-20">
-      <h1 class="text-center text-2xl mt-4">
-        Some Of My Work
-      </h1> 
+    <section
+      id="portfolio"
+      class="px-4 md:px-20 py-20 min-h-screen flex items-center"
+    >
+      <div class="w-full text-xl">
+        <h1 class="text-center mt-4 text-4xl">Some Of My Work</h1>
 
-      <p class="mt-4 text-center">
-       Below is my most recent projects.
-      </p>
+        <p class="mt-4 text-center">Below is my most recent projects.</p>
 
-      
-      <div class="lg:flex justify-center gap-x-16">
-        <!-- Service 1-->
-        <div class="bg-black basis-2/6 mt-10 text-white">
-Eclaims
+        <div class="lg:flex justify-center gap-x-16">
+          <!-- Service 1-->
+          <div class="bg-black basis-2/6 mt-10 text-white" data-aos="zoom-out-down">Eclaims</div>
+
+          <!-- Service 2 -->
+          <div class="basis-2/6 bg-cust_gray mt-10" data-aos="zoom-out-down">Agri-Solution</div>
+
+          <!-- Service 2 -->
+          <div class="bg-black basis-2/6 text-white mt-10" data-aos="zoom-out-down">
+            Law firm Website
+          </div>
         </div>
-
-        <!-- Service 2 -->
-        <div class=" basis-2/6 bg-cust_gray mt-10">
-        Agri-Solution
-        </div>
-
-        <!-- Service 2 -->
-        <div class="bg-black basis-2/6 text-white mt-10">
-          Law firm Website
-        </div>
-        
       </div>
     </section>
 
-    
-
     <!--Contact Section-->
-    <div id="contact" class="bg-cust_gray md:min-h-screen flex flex-col justify-between">
-      <div class="px-10 md:px-20 my-auto">
-
+    <div
+      id="contact"
+      class="bg-cust_gray md:min-h-screen flex flex-col justify-between text-xl"
+    >
+      <div class="px-4 md:px-20 my-auto">
         <div class="text-center max-w-lg mx-auto mt-8">
           <h1 class="text-2xl">Feel free to message me!</h1>
           <p class="mb-4 mt-10">
-            Have a question, proposal, want to hire me, get a quote or just to chat? I'm here for you.
+            Have a question, proposal, want to hire me, get a quote or just to
+            chat? I'm here for you.
           </p>
         </div>
-  
-        <form action="" class="max-w-2xl mx-auto py-10">
+
+        <form name="contact" method="POST" data-netlify="true" class="max-w-2xl mx-auto py-10">
           <div class="flex gap-20 justify-between">
-            <div class=" z-0 w-full mb-6">
+            <div class="z-0 w-full mb-6">
               <label>Your Name</label>
-              <input type="text" name="sender" 
-              class="block py-1 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cust_primary" placeholder="Enter your name" required />
+              <input
+                type="text"
+                name="name"
+                class="block py-1 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cust_primary"
+                placeholder="Enter your name"
+                required
+              />
             </div>
-  
+
             <div class="relative z-0 w-full mb-6 group">
               <label>Your Email Address</label>
-              <input type="email" name="email" 
-              class="block py-1 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cust_primary" placeholder="Enter your email address" required />
+              <input
+                type="email"
+                name="email"
+                class="block py-1 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cust_primary"
+                placeholder="Enter your email address"
+                required
+              />
             </div>
           </div>
-  
+
           <div class="relative z-0 w-full mb-20 mt-10">
             <label>Your Message</label>
-            <input type="textarea" name="message" 
-            class="block py-1 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cust_primary" 
-            placeholder="Hi, I’m am looking for a website for my bussiness. I would like to have a chat with you" required />
+            <input
+              type="textarea"
+              name="message"
+              class="block py-1 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cust_primary"
+              placeholder="Hi, I’m am looking for a website for my bussiness. I would like to have a chat with you"
+              required
+            />
           </div>
-          
-          <p class="border-2 border-cust_primary max-w-min mx-auto text-center mt-10 py-1 px-10">
-            SEND
-          </p>
+
+          <div>
+            <button
+            type="submit"
+              class="border-2 mx-auto block border-cust_primary text-center py-1 px-10"
+            >
+              SEND
+            </button>
+          </div>
         </form>
       </div>
 
-      <div class="bg-black text-center text-white px-10 md:px-20 py-12">
-        <h1 class="text-left text-2xl">Find me on social media</h1>
-          <p class="text-left">github, linkedin</p>
+      <div
+        class="bg-black text-center text-white px-4 md:px-20 py-12 text-base"
+      >
+        <h1 class="text-left text-xl">Find me on social media</h1>
+        <p class="text-left">github, linkedin</p>
         <hr class="my-2 border-gray-400" />
         &copy;copyrights IsaacTechPro
       </div>
     </div>
+
     
-
-
-    <script>
-      AOS.init({
-        delay: 200,
-        duration: 1200,
-        once: false,
-      });
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </script>
+<script>
+    AOS.init({
+      delay: 30,
+      duration: 1200,
+      once: false,
+    })
+</script>
+   
+  <script src="./app.js"></script>
   </body>
 </html>
